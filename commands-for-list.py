@@ -10,18 +10,18 @@ def commands_for_list(data):
     for command in commands:
         data = command.split()
         cmd = data[0]
-        
+
         if cmd == 'insert':
             k = int(data[1])
             v = int(data[2])
             list_of_data.insert(k, v)
-        
+
         if cmd == 'remove':
-            v =  int(data[1])
+            v = int(data[1])
             list_of_data.remove(v)
 
         if cmd == 'append':
-            v =  int(data[1])
+            v = int(data[1])
             list_of_data.append(v)
 
         if cmd == 'sort':
@@ -35,7 +35,7 @@ def commands_for_list(data):
 
         if cmd == 'print':
             print(list_of_data)
-   
+
 
 data = """
 12

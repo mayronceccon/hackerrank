@@ -1,7 +1,8 @@
 # https://www.hackerrank.com/challenges/py-if-else/problem
 
+
 def python_if_else(n):
-    if  n % 2 == 0 and n > 20:
+    if n % 2 == 0 and n > 20:
         return 'Not Weird'
 
     if n % 2 == 1:
@@ -12,6 +13,7 @@ def python_if_else(n):
 
     if n % 2 == 0 and n in range(6, 20 + 1):
         return 'Weird'
+
 
 assert 'Not Weird' == python_if_else(50)
 assert 'Weird' == python_if_else(3)

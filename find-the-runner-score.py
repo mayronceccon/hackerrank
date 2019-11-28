@@ -2,9 +2,9 @@
 
 
 def find_the_runner_score(n, arr):
-    l = list(dict.fromkeys(arr))
-    l.sort(reverse=True)
-    return int(l[1])
+    L = list(dict.fromkeys(arr))
+    L.sort(reverse=True)
+    return int(L[1])
 
 
 assert 2 == find_the_runner_score(2, '2 9'.split())
